@@ -1,0 +1,37 @@
+CASE INFO:
+  nodes: 1
+  total tasks: 1
+  tasks per node: 1
+  thread count: 1
+  ngpus per node: 0
+
+BATCH INFO:
+  FOR JOB: case.run
+    ENV:
+      Setting Environment MPI_IB_CONGESTED=1
+      Setting Environment MPI_TYPE_DEPTH=16
+      Setting Environment MPI_USE_ARRAY=None
+      Setting Environment OMP_NUM_THREADS=1
+      Setting Environment OMP_STACKSIZE=1024M
+      Setting Environment TMPDIR=/glade/scratch/marielj
+      Setting Environment TMPDIR=/glade/scratch/marielj
+
+    SUBMIT CMD:
+      qsub -q share -l walltime=06:00:00 -A UMIN0008 -v ARGS_FOR_SCRIPT='--resubmit' .case.run
+
+    MPIRUN (job=case.run):
+      mpirun `hostname`  -np 1  omplace -tm open64  /glade/scratch/marielj/test-hillslope-mct-srof-lagg/bld/cesm.exe   >> cesm.log.$LID 2>&1 
+
+  FOR JOB: case.st_archive
+    ENV:
+      Setting Environment MPI_IB_CONGESTED=1
+      Setting Environment MPI_TYPE_DEPTH=16
+      Setting Environment MPI_USE_ARRAY=None
+      Setting Environment OMP_NUM_THREADS=1
+      Setting Environment OMP_STACKSIZE=1024M
+      Setting Environment TMPDIR=/glade/scratch/marielj
+      Setting Environment TMPDIR=/glade/scratch/marielj
+
+    SUBMIT CMD:
+      qsub -q share -l walltime=00:20:00 -A UMIN0008  -W depend=afterok:0 -v ARGS_FOR_SCRIPT='--resubmit' case.st_archive
+

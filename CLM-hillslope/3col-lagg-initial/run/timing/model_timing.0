@@ -1,0 +1,162 @@
+
+************ PROCESS      0 (     0) ************
+
+$Id: gptl.c,v 1.157 2011-03-28 20:55:18 rosinski Exp $
+GPTL was built without threading
+HAVE_MPI was true
+  HAVE_COMM_F2C was true
+  ENABLE_PMPI was false
+HAVE_PAPI was false
+Underlying timing routine was MPI_Wtime.
+Per-call utr overhead est: 5.76731e-08 sec.
+If overhead stats are printed, roughly half the estimated number is
+embedded in the wallclock stats for each timer.
+Print method was most_frequent.
+If a '%_of' field is present, it is w.r.t. the first timer for thread 0.
+If a 'e6_per_sec' field is present, it is in millions of PAPI counts per sec.
+
+A '*' in column 1 below means the timer had multiple parents, though the
+values printed are for all calls.
+Further down the listing may be more detailed information about multiple
+parents. Look for 'Multiple parent info'
+
+Stats for thread 0:
+                                        On  Called Recurse   Wallclock          max          min     UTR Overhead 
+  "CPL:INIT"                             -       1    -       6.507977     6.507977     6.507977         0.000000 
+    "CPL:cime_pre_init1"                 -       1    -       0.101212     0.101212     0.101212         0.000000 
+      "CPL:mpi_init"                     -       1    -       0.000200     0.000200     0.000200         0.000000 
+    "CPL:ESMF_Initialize"                -       1    -       0.045100     0.045100     0.045100         0.000000 
+    "CPL:cime_pre_init2"                 -       1    -       0.013918     0.013918     0.013918         0.000000 
+    "CPL:cime_init"                      -       1    -       6.347730     6.347730     6.347730         0.000000 
+      "CPL:init_comps"                   -       1    -       6.346450     6.346450     6.346450         0.000000 
+        "CPL:comp_init_pre_all"          -       1    -       0.000065     0.000065     0.000065         0.000000 
+        "CPL:comp_init_cc_atm"           -       1    -       5.074753     5.074753     5.074753         0.000000 
+        "CPL:comp_init_cc_lnd"           -       1    -       1.271030     1.271030     1.271030         0.000000 
+        "CPL:comp_init_cc_rof"           -       1    -       0.000036     0.000036     0.000036         0.000000 
+        "CPL:comp_init_cc_ocn"           -       1    -       0.000019     0.000019     0.000019         0.000000 
+        "CPL:comp_init_cc_ice"           -       1    -       0.000015     0.000015     0.000015         0.000000 
+        "CPL:comp_init_cc_glc"           -       1    -       0.000010     0.000010     0.000010         0.000000 
+        "CPL:comp_init_cc_wav"           -       1    -       0.000010     0.000010     0.000010         0.000000 
+        "CPL:comp_init_cc_esp"           -       1    -       0.000009     0.000009     0.000009         0.000000 
+        "comp_init_cc_iac"               -       1    -       0.000010     0.000010     0.000010         0.000000 
+        "CPL:comp_init_cx_all"           -       1    -       0.000422     0.000422     0.000422         0.000000 
+        "CPL:comp_list_all"              -       1    -       0.000018     0.000018     0.000018         0.000000 
+      "CPL:init_maps"                    -       1    -       0.000326     0.000326     0.000326         0.000000 
+      "CPL:init_aream"                   -       1    -       0.000016     0.000016     0.000016         0.000000 
+      "CPL:init_domain_check"            -       1    -       0.000176     0.000176     0.000176         0.000000 
+      "CPL:init_areacor"                 -       1    -       0.000144     0.000144     0.000144         0.000000 
+      "CPL:init_fracs"                   -       1    -       0.000181     0.000181     0.000181         0.000000 
+      "CPL:init_readrestart"             -       1    -       0.000060     0.000060     0.000060         0.000000 
+  "CPL:cime_run_init"                    -       1    -       0.017384     0.017384     0.017384         0.000000 
+  "CPL:INIT_sync1_tprf"                  -       1    -       0.000001     0.000001     0.000001         0.000000 
+  "CPL:INIT_t_prf"                       -       1    -       0.002961     0.002961     0.002961         0.000000 
+  "CPL:INIT_sync2_tprf"                  -       1    -       0.000001     0.000001     0.000001         0.000000 
+  "CPL:RUN_LOOP_BSTART"                  -       1    -       0.000000     0.000000     0.000000         0.000000 
+  "CPL:RUN_LOOP"                         -  122640    -     312.638916     0.243309     0.000988         0.014146 
+    "CPL:CLOCK_ADVANCE"                  -  122640    -      22.491331     0.000578     0.000090         0.014146 
+*   "CPL:RUN"                            -  861036    -       4.267661     0.025537     0.000000         0.099317 
+      "CPL:LNDPREP"                      -  122640    -       2.799512     0.000369     0.000011         0.014146 
+        "CPL:lndprep_atm2lnd"            -  122640    -       2.106682     0.000361     0.000009         0.014146 
+        "CPL:lndprep_mrgx2l"             -  122640    -       0.400788     0.000303     0.000002         0.014146 
+      "CPL:LNDPOST"                      -  122640    -       0.037997     0.000040     0.000000         0.014146 
+      "CPL:FRACSET"                      -  122640    -       0.358220     0.000026     0.000001         0.014146 
+        "CPL:fracset_fracset"            -  122640    -       0.245931     0.000023     0.000001         0.014146 
+      "CPL:ATMPOST"                      -  122640    -       0.035302     0.000025     0.000000         0.014146 
+      "CPL:HISTORY"                      -  245280    -       0.102306     0.000018     0.000000         0.028292 
+      "CPL:TSTAMP_WRITE"                 -  122640    -       0.446179     0.022139     0.000000         0.014146 
+      "CPL:BARRIERALARM"                 -    2555    -       0.003833     0.000015     0.000000         0.000295 
+      "CPL:RESTART"                      -       1    -       0.025534     0.025534     0.025534         0.000000 
+    "CPL:COMM"                           -  367920    -      14.175361     0.000383     0.000013         0.042438 
+      "CPL:C2L"                          -  122640    -       5.253343     0.000382     0.000022         0.014146 
+        "CPL:c2l_lndx2lndl"              -  122640    -       4.643594     0.000373     0.000019         0.014146 
+        "CPL:c2l_infoexch"               -  122640    -       0.391698     0.000052     0.000001         0.014146 
+      "CPL:L2C"                          -  122640    -       5.745185     0.000381     0.000024         0.014146 
+        "CPL:l2c_lndl2lndx"              -  122640    -       5.142981     0.000373     0.000022         0.014146 
+        "lnd2cpl_run"                    -  122640    -       0.338317     0.000300     0.000001         0.014146 
+      "CPL:A2C"                          -  122640    -       2.942623     0.000314     0.000012         0.014146 
+        "CPL:a2c_atma2atmx"              -  122640    -       2.200162     0.000305     0.000009         0.014146 
+        "CPL:a2c_infoexch"               -  122640    -       0.447648     0.000069     0.000002         0.014146 
+    "CPL:LND_RUN"                        -  122640    -     207.509201     0.219583     0.000643         0.014146 
+      "l:lc_lnd_import"                  -  122640    -       0.338813     0.000322     0.000001         0.014146 
+      "l:clm_run"                        -  122641    -     188.319336     0.219487     0.000562         0.014146 
+        "l:shr_orb_decl"                 -  122641    -       0.252078     0.000054     0.000001         0.014146 
+        "l:decomp_vert"                  -  122641    -       0.176598     0.000062     0.000001         0.014146 
+        "l:begcnbal_grc"                 -  122641    -       0.016876     0.000018     0.000000         0.014146 
+        "l:begwbal"                      -  245282    -       1.634381     0.000314     0.000001         0.028292 
+        "l:dyn_subgrid"                  -  122641    -       4.188434     0.000342     0.000017         0.014146 
+        "l:begcnbal_col"                 -  122641    -       0.010418     0.000019     0.000000         0.014146 
+        "l:urbantvdyn_strd_adv_total"    -  122641    -      13.495954     0.000475     0.000058         0.014146 
+        "l:drvinit"                      -  122641    -       2.906779     0.000310     0.000012         0.014146 
+        "l:hydro1"                       -  122641    -       1.945625     0.000301     0.000006         0.014146 
+        "l:surfrad"                      -  122641    -       1.504637     0.000354     0.000006         0.014146 
+        "l:bgp1"                         -  122641    -       1.210509     0.000344     0.000005         0.014146 
+        "l:bgp_fluxes"                   -  122641    -      36.703842     0.002989     0.000060         0.014146 
+        "l:bgc"                          -  122641    -       3.159560     0.000314     0.000012         0.014146 
+        "l:lakeTemp"                     -  122641    -       1.588598     0.000314     0.000006         0.014146 
+        "l:soiltemperature"              -  122641    -      11.709207     0.051964     0.000047         0.014146 
+        "l:bgp2"                         -  122641    -       1.006523     0.000150     0.000004         0.014146 
+        "l:patch2col"                    -  122641    -       0.178706     0.000052     0.000001         0.014146 
+        "l:hydro_without_drainage"       -  122641    -      33.240311     0.001045     0.000048         0.014146 
+        "l:hylake"                       -  122641    -       2.884977     0.000319     0.000011         0.014146 
+        "l:snow_init"                    -  122641    -       0.248717     0.000024     0.000000         0.014146 
+        "l:depvel"                       -  122641    -       0.044393     0.000282     0.000000         0.014146 
+        "l:hydro2_drainage"              -  122641    -       1.927212     0.000301     0.000008         0.014146 
+        "l:lnd2atm"                      -  122641    -       2.755707     0.000323     0.000011         0.014146 
+        "l:lnd2glc"                      -  122641    -       0.192857     0.000283     0.000001         0.014146 
+        "l:balchk"                       -  122641    -       2.183160     0.000351     0.000009         0.014146 
+        "l:hbuf"                         -  122641    -      43.369026     0.000823     0.000165         0.014146 
+        "l:clm_drv_io"                   -  122641    -       6.998566     0.218699     0.000002         0.014146 
+        "l:accum"                        -  122640    -       2.810395     0.000383     0.000011         0.014146 
+        "l:interpMonthlyVeg"             -  122639    -       2.402877     0.033845     0.000001         0.014146 
+        "l:SatellitePhenology"           -  122639    -       0.112369     0.000020     0.000000         0.014146 
+        "l:surfalb"                      -  122639    -       3.820478     0.000362     0.000012         0.014146 
+      "l:lc_lnd_export"                  -  122641    -       0.299864     0.000030     0.000001         0.014146 
+      "l:lc_clm2_adv_timestep"           -  122641    -       0.104093     0.000021     0.000000         0.014146 
+      "l:check_fields"                   -  122640    -       0.192539     0.000024     0.000001         0.014146 
+    "CPL:ATM_RUN"                        -  122640    -      62.436264     0.092589     0.000163         0.014146 
+      "a:DATM_RUN"                       -  122640    -      56.287075     0.092522     0.000137         0.014146 
+        "a:datm_run1"                    -  122640    -       1.694431     0.000334     0.000006         0.014146 
+        "a:datm"                         -  122640    -      50.936024     0.060966     0.000113         0.014146 
+        "a:datm_run2"                    -  122640    -       3.368221     0.091810     0.000009         0.014146 
+      "a:check_fields"                   -  122640    -       0.160278     0.000048     0.000000         0.014146 
+  "CPL:TPROF_WRITE"                      -  122640    -       0.022271     0.004464     0.000000         0.014146 
+    "CPL:RUN_LOOP_sync1_tprf"            -       1    -       0.000002     0.000002     0.000002         0.000000 
+    "CPL:RUN_LOOP_t_prf"                 -       1    -       0.004454     0.004454     0.004454         0.000000 
+    "CPL:RUN_LOOP_sync2_tprf"            -       1    -       0.000001     0.000001     0.000001         0.000000 
+  "CPL:RUN_LOOP_BSTOP"                   -       1    -       0.000000     0.000000     0.000000         0.000000 
+  "CPL:FINAL"                            -       1    -       0.000913     0.000913     0.000913         0.000000 
+    "CPL:cime_final"                     -       1    -       0.000911     0.000911     0.000911         0.000000 
+      "a_f:DATM_FINAL"                   -       1    -       0.000047     0.000047     0.000047         0.000000 
+  "CPL:FINAL_sync1_tprf"                 -       1    -       0.000001     0.000001     0.000001         0.000000 
+  "CPL:FINAL_t_prf"                      y       0    -       0.000000     0.000000     0.000000         0.000000 
+
+Overhead sum =      1.08 wallclock seconds
+Total calls  = 9.326e+06
+
+Multiple parent info for thread 0:
+Columns are count and name for the listed child
+Rows are each parent, with their common child being the last entry, which is indented.
+Count next to each parent is the number of times it called the child.
+Count next to child is total number of times it was called by the listed parents.
+
+  858481 CPL:RUN_LOOP                    
+    2555 GPTL_ROOT                       
+  861036   CPL:RUN                         
+
+
+thread 0 had some hash collisions:
+hashtable[0][329] had 2 entries: CPL:cime_pre_init1 a:DATM_RUN
+hashtable[0][517] had 2 entries: l:shr_orb_decl CPL:a2c_atma2atmx
+Total collisions thread 0 = 2
+Entry information:
+num_zero = 1943 num_one = 103 num_two = 2 num_more = 0
+Most = 2
+
+Thread 0 total memory usage = 65.208 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 30.816 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 1.624 KB
+
+Total memory usage all threads = 65.208 KB
+
+threadid[0] = 0
