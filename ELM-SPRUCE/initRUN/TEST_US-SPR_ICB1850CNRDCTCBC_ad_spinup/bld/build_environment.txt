@@ -1,0 +1,1 @@
+/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/build_environment.230907-143141.txt

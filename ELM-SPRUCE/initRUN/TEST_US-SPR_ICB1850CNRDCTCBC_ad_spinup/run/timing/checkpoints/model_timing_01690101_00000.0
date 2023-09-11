@@ -1,0 +1,306 @@
+
+************ PROCESS      0 (     0) ************
+
+$Id: gptl.c,v 1.157 2011-03-28 20:55:18 rosinski Exp $
+GPTL was built without threading
+HAVE_MPI was false
+HAVE_PAPI was false
+Underlying timing routine was gettimeofday.
+Per-call utr overhead est: 2.6e-08 sec.
+If overhead stats are printed, roughly half the estimated number is
+embedded in the wallclock stats for each timer.
+Print method was most_frequent.
+If a '%_of' field is present, it is w.r.t. the first timer for thread 0.
+If a 'e6_per_sec' field is present, it is in millions of PAPI counts per sec.
+
+A '*' in column 1 below means the timer had multiple parents, though the
+values printed are for all calls.
+Further down the listing may be more detailed information about multiple
+parents. Look for 'Multiple parent info'
+
+Stats for thread 0:
+                                                                 On  Called Recurse   Wallclock          max          min     UTR Overhead 
+  "CPL:INIT"                                                      -       1    -       0.138507     0.138507     0.138507         0.000000 
+    "CPL:cime_pre_init1"                                          -       1    -       0.002000     0.002000     0.002000         0.000000 
+    "CPL:ESMF_Initialize"                                         -       1    -       0.000000     0.000000     0.000000         0.000000 
+    "CPL:cime_pre_init2"                                          -       1    -       0.009000     0.009000     0.009000         0.000000 
+    "CPL:cime_init"                                               -       1    -       0.127498     0.127498     0.127498         0.000000 
+      "CPL:init_comps"                                            -       1    -       0.127254     0.127254     0.127254         0.000000 
+        "CPL:comp_init_pre_all"                                   -       1    -       0.000034     0.000034     0.000034         0.000000 
+        "CPL:comp_init_cc_atm"                                    -       1    -       0.000024     0.000024     0.000024         0.000000 
+          "a_i:comp_init"                                         -       1    -       0.000009     0.000009     0.000009         0.000000 
+        "CPL:comp_init_cc_lnd"                                    -       1    -       0.126912     0.126912     0.126912         0.000000 
+          "l_i:comp_init"                                         -       1    -       0.126899     0.126899     0.126899         0.000000 
+            "l_i:shr_taskmap_write"                               -       1    -       0.000011     0.000011     0.000011         0.000000 
+            "l_i:clm_init1"                                       -       1    -       0.007791     0.007791     0.007791         0.000000 
+              "l_i:PIO:pio_get_var_1d_int"                        -       6    -       0.000347     0.000320     0.000003         0.000000 
+*             "l_i:PIO:PIO_initdecomp_dof"                        -      12    -       0.005512     0.002723     0.000013         0.000001 
+                "l_i:PIO:pio_rearrange_create_box"                -      12    -       0.004652     0.002299     0.000007         0.000001 
+*             "l_i:PIO:pio_read_darray"                           -      64    -       0.002239     0.000757     0.000006         0.000003 
+                "l_i:PIO:pio_read_nf"                             -      64    -       0.001349     0.000614     0.000003         0.000003 
+                  "l_i:PIO:pio_read_nfdarray_double"              -      57    -       0.001270     0.000612     0.000003         0.000003 
+                  "l_i:PIO:pio_read_nfdarray_int"                 -       7    -       0.000042     0.000010     0.000003         0.000000 
+                "l_i:PIO:pio_rearrange_read"                      -      64    -       0.000733     0.000141     0.000001         0.000003 
+                  "l_i:PIO:pio_rearrange_io2comp_double"          -      57    -       0.000663     0.000139     0.000001         0.000003 
+                    "l_i:PIO:swapm_box_rear_io2comp_double"       -      57    -       0.000571     0.000132     0.000000         0.000003 
+                  "l_i:PIO:pio_rearrange_io2comp_int"             -       7    -       0.000025     0.000008     0.000001         0.000000 
+                    "l_i:PIO:swapm_box_rear_io2comp_int"          -       7    -       0.000007     0.000002     0.000000         0.000000 
+              "l_i:PIO:pio_get_var_1d_text"                       -       2    -       0.000056     0.000036     0.000020         0.000000 
+*             "l_i:PIO:pio_get_var_1d_double"                     -     156    -       0.000766     0.000009     0.000001         0.000008 
+              "l_i:gather_1darray_int_total"                      -       5    -       0.000072     0.000034     0.000009         0.000000 
+              "l_i:scatter_1darray_int_total"                     -       5    -       0.000054     0.000015     0.000009         0.000000 
+              "l_i:init_filters"                                  -       1    -       0.000013     0.000013     0.000013         0.000000 
+            "l_i:clm_init2"                                       -       1    -       0.118711     0.118711     0.118711         0.000000 
+*             "l_i:PIO:PIO_openfile"                              -      20    -       0.004771     0.000939     0.000019         0.000001 
+*             "l_i:PIO:PIO_closefile"                             -      15    -       0.001796     0.000507     0.000009         0.000001 
+*             "l_i:PIO:pio_get_var_0d_double"                     -     110    -       0.000097     0.000008     0.000000         0.000006 
+              "l_i:init_orbd"                                     -       1    -       0.000009     0.000009     0.000009         0.000000 
+              "l_i:PIO:pio_get_var_0d_int"                        -       1    -       0.000009     0.000009     0.000009         0.000000 
+              "l_i:PIO:pio_get_var_2d_double"                     -       6    -       0.004599     0.001710     0.000055         0.000000 
+              "l_i:PIO:pio_get_var_3d_double"                     -       3    -       0.000646     0.000584     0.000022         0.000000 
+              "l_i:init_accflds"                                  -       1    -       0.000070     0.000070     0.000070         0.000000 
+              "l_i:init_dyn_subgrid"                              -       1    -       0.000067     0.000067     0.000067         0.000000 
+              "l_i:init_ndep"                                     -       1    -       0.063046     0.063046     0.063046         0.000000 
+                "l_i:ndepdyn_strd_adv_total"                      -       1    -       0.054138     0.054138     0.054138         0.000000 
+                  "l_i:ndepdyn_strd_adv_readLBUB"                 -       1    -       0.054048     0.054048     0.054048         0.000000 
+                    "l_i:ndepdyn_readLBUB_setup"                  -       1    -       0.000000     0.000000     0.000000         0.000000 
+                    "l_i:ndepdyn_readLBUB_fbound"                 -       1    -       0.052957     0.052957     0.052957         0.000000 
+                    "l_i:ndepdyn_readLBUB_bcast"                  -       1    -       0.000001     0.000001     0.000001         0.000000 
+                    "l_i:ndepdyn_readLBUB_LB_setup"               -       1    -       0.000014     0.000014     0.000014         0.000000 
+                    "l_i:ndepdyn_readLBUB_LB_readpio"             -       1    -       0.000831     0.000831     0.000831         0.000000 
+                    "l_i:ndepdyn_readLBUB_UB_setup"               -       1    -       0.000007     0.000007     0.000007         0.000000 
+                    "l_i:ndepdyn_readLBUB_UB_readpio"             -       1    -       0.000190     0.000190     0.000190         0.000000 
+                    "l_i:ndepdyn_readLBUB_filemgt"                -       1    -       0.000001     0.000001     0.000001         0.000000 
+                  "l_i:ndepdyn_strd_adv_map"                      -       1    -       0.000013     0.000013     0.000013         0.000000 
+                  "l_i:ndepdyn_strd_adv_tint"                     -       1    -       0.000071     0.000071     0.000071         0.000000 
+              "l_i:init_pdep"                                     -       1    -       0.008945     0.008945     0.008945         0.000000 
+                "l_i:pdepdyn_strd_adv_total"                      -       1    -       0.000962     0.000962     0.000962         0.000000 
+                  "l_i:pdepdyn_strd_adv_readLBUB"                 -       1    -       0.000875     0.000875     0.000875         0.000000 
+                    "l_i:pdepdyn_readLBUB_setup"                  -       1    -       0.000000     0.000000     0.000000         0.000000 
+                    "l_i:pdepdyn_readLBUB_fbound"                 -       1    -       0.000268     0.000268     0.000268         0.000000 
+                    "l_i:pdepdyn_readLBUB_bcast"                  -       1    -       0.000000     0.000000     0.000000         0.000000 
+                    "l_i:pdepdyn_readLBUB_LB_setup"               -       1    -       0.000009     0.000009     0.000009         0.000000 
+                    "l_i:pdepdyn_readLBUB_LB_readpio"             -       1    -       0.000347     0.000347     0.000347         0.000000 
+                    "l_i:pdepdyn_readLBUB_UB_setup"               -       1    -       0.000006     0.000006     0.000006         0.000000 
+                    "l_i:pdepdyn_readLBUB_UB_readpio"             -       1    -       0.000197     0.000197     0.000197         0.000000 
+                    "l_i:pdepdyn_readLBUB_filemgt"                -       1    -       0.000001     0.000001     0.000001         0.000000 
+                  "l_i:pdepdyn_strd_adv_map"                      -       1    -       0.000011     0.000011     0.000011         0.000000 
+                  "l_i:pdepdyn_strd_adv_tint"                     -       1    -       0.000072     0.000072     0.000072         0.000000 
+              "l_i:init_map2gc"                                   -       1    -       0.000010     0.000010     0.000010         0.000000 
+              "l_i:init_clm_interface_data & pflotran"            -       1    -       0.000000     0.000000     0.000000         0.000000 
+              "l_i:init_wlog"                                     -       1    -       0.000005     0.000005     0.000005         0.000000 
+            "l_i:clm_init3"                                       -       1    -       0.000000     0.000000     0.000000         0.000000 
+        "CPL:comp_init_cc_rof"                                    -       1    -       0.000147     0.000147     0.000147         0.000000 
+          "r_i:comp_init"                                         -       1    -       0.000139     0.000139     0.000139         0.000000 
+            "r_i:shr_taskmap_write"                               -       1    -       0.000006     0.000006     0.000006         0.000000 
+        "CPL:comp_init_cc_ocn"                                    -       1    -       0.000007     0.000007     0.000007         0.000000 
+          "o_i:comp_init"                                         -       1    -       0.000001     0.000001     0.000001         0.000000 
+        "CPL:comp_init_cc_ice"                                    -       1    -       0.000005     0.000005     0.000005         0.000000 
+          "i_i:comp_init"                                         -       1    -       0.000001     0.000001     0.000001         0.000000 
+        "CPL:comp_init_cc_glc"                                    -       1    -       0.000004     0.000004     0.000004         0.000000 
+          "g_i:comp_init"                                         -       1    -       0.000000     0.000000     0.000000         0.000000 
+        "CPL:comp_init_cc_wav"                                    -       1    -       0.000004     0.000004     0.000004         0.000000 
+          "w_i:comp_init"                                         -       1    -       0.000000     0.000000     0.000000         0.000000 
+        "CPL:comp_init_cc_esp"                                    -       1    -       0.000003     0.000003     0.000003         0.000000 
+          "e_i:comp_init"                                         -       1    -       0.000000     0.000000     0.000000         0.000000 
+        "CPL:comp_init_cx_all"                                    -       1    -       0.000095     0.000095     0.000095         0.000000 
+        "CPL:comp_list_all"                                       -       1    -       0.000003     0.000003     0.000003         0.000000 
+      "CPL:init_maps"                                             -       1    -       0.000059     0.000059     0.000059         0.000000 
+      "CPL:init_aream"                                            -       1    -       0.000001     0.000001     0.000001         0.000000 
+      "CPL:init_domain_check"                                     -       1    -       0.000007     0.000007     0.000007         0.000000 
+      "CPL:init_areacor"                                          -       1    -       0.000045     0.000045     0.000045         0.000000 
+      "CPL:init_fracs"                                            -       1    -       0.000023     0.000023     0.000023         0.000000 
+      "CPL:init_readrestart"                                      -       1    -       0.000035     0.000035     0.000035         0.000000 
+  "CPL:RUN_LOOP_BSTART"                                           -       1    -       0.000000     0.000000     0.000000         0.000000 
+  "CPL:RUN_LOOP"                                                  - 1.5e+06    -    2406.493408     0.544388     0.001328         0.076527 
+    "CPL:CLOCK_ADVANCE"                                           - 1.5e+06    -     125.192177     0.000919     0.000068         0.076527 
+    "CPL:RUN"                                                     - 8.8e+06    -      11.195544     0.000398     0.000000         0.459164 
+      "CPL:LNDPREP"                                               - 1.5e+06    -       3.666026     0.000086     0.000002         0.076527 
+        "CPL:lndprep_mrgx2l"                                      - 1.5e+06    -       2.517340     0.000084     0.000001         0.076527 
+      "CPL:LNDPOST"                                               - 1.5e+06    -       0.348636     0.000256     0.000000         0.076527 
+      "CPL:FRACSET"                                               - 1.5e+06    -       2.691174     0.000397     0.000001         0.076527 
+        "CPL:fracset_fracset"                                     - 1.5e+06    -       1.795227     0.000397     0.000000         0.076527 
+      "CPL:HISTORY"                                               - 2.9e+06    -       0.731505     0.000259     0.000000         0.153055 
+      "CPL:TSTAMP_WRITE"                                          - 1.5e+06    -       0.750404     0.000088     0.000000         0.076527 
+    "CPL:COMM"                                                    - 2.9e+06    -      34.577648     0.000413     0.000010         0.153055 
+      "CPL:C2L"                                                   - 1.5e+06    -      17.470533     0.000411     0.000010         0.076527 
+        "CPL:c2l_lndx2lndl"                                       - 1.5e+06    -      13.631353     0.000299     0.000008         0.076527 
+        "CPL:c2l_infoexch"                                        - 1.5e+06    -       1.739933     0.000398     0.000000         0.076527 
+      "CPL:L2C"                                                   - 1.5e+06    -      16.011147     0.000412     0.000009         0.076527 
+        "CPL:l2c_lndl2lndx"                                       - 1.5e+06    -      11.913756     0.000401     0.000007         0.076527 
+        "lnd2cpl_run"                                             - 1.5e+06    -       1.895312     0.000088     0.000001         0.076527 
+    "CPL:LND_RUN"                                                 - 1.5e+06    -    2226.008789     0.544222     0.001221         0.076527 
+      "l:lc_lnd_import"                                           - 1.5e+06    -      24.737452     0.522639     0.000008         0.076527 
+      "l:clm_run"                                                 - 1.5e+06    -    2110.733398     0.020053     0.001157         0.076527 
+        "l:shr_orb_decl"                                          - 1.5e+06    -       2.202760     0.000257     0.000001         0.076527 
+        "l:decomp_vert"                                           - 1.5e+06    -      67.706436     0.000457     0.000043         0.076527 
+        "l:beggridwbal"                                           - 1.5e+06    -       5.860110     0.000401     0.000003         0.076527 
+        "l:cnpinit"                                               - 1.5e+06    -      34.289345     0.000427     0.000020         0.076527 
+        "l:dyn_subgrid"                                           - 1.5e+06    -     193.526794     0.000971     0.000124         0.076527 
+        "l:begwbal"                                               - 1.5e+06    -       0.782540     0.000082     0.000000         0.076527 
+        "l:begcnpbal"                                             - 1.5e+06    -      11.362358     0.000408     0.000007         0.076527 
+        "l:drvinit"                                               - 1.5e+06    -       3.629564     0.000263     0.000001         0.076527 
+        "l:canhydro"                                              - 1.5e+06    -       5.636458     0.000166     0.000002         0.076527 
+        "l:surfrad"                                               - 1.5e+06    -      11.766010     0.000405     0.000006         0.076527 
+        "l:bgp1"                                                  - 1.5e+06    -       4.140131     0.000402     0.000002         0.076527 
+        "l:bgflux"                                                - 1.5e+06    -       9.187109     0.000415     0.000002         0.076527 
+        "l:canflux"                                               - 1.5e+06    -     307.413422     0.002872     0.000011         0.076527 
+          "l:can_iter"                                            - 1.5e+06    -     267.648926     0.002644     0.000000         0.076527 
+        "l:uflux"                                                 - 1.5e+06    -      10.822787     0.000408     0.000006         0.076527 
+        "l:bgplake"                                               - 1.5e+06    -      38.559464     0.000571     0.000023         0.076527 
+          "l:bgc"                                                 - 1.5e+06    -      17.722923     0.000529     0.000010         0.076527 
+        "l:soiltemperature"                                       - 1.5e+06    -      72.047760     0.003505     0.000043         0.076527 
+          "l:SoilThermProp"                                       - 1.5e+06    -       7.803756     0.000403     0.000004         0.076527 
+          "l:SoilTempBandDiag"                                    - 2.9e+06    -      10.365411     0.003445     0.000000         0.153055 
+          "l:PhaseChangeH2osfc"                                   - 1.5e+06    -       0.372247     0.000256     0.000000         0.076527 
+          "l:PhaseChangebeta"                                     - 1.5e+06    -       3.441322     0.000093     0.000001         0.076527 
+        "l:bgp2"                                                  - 1.5e+06    -       8.094181     0.000263     0.000004         0.076527 
+          "l:bgp2_loop_1"                                         - 1.5e+06    -       1.091099     0.000257     0.000000         0.076527 
+          "l:bgp2_loop_2"                                         - 1.5e+06    -       0.868580     0.000098     0.000000         0.076527 
+          "l:bgp2_loop_3"                                         - 1.5e+06    -       1.782795     0.000093     0.000001         0.076527 
+          "l:bgp2_loop_4"                                         - 1.5e+06    -       0.670822     0.000255     0.000000         0.076527 
+        "l:patch2col"                                             - 1.5e+06    -       4.758723     0.000402     0.000002         0.076527 
+        "l:hydro without drainage"                                - 1.5e+06    -      58.747864     0.000479     0.000034         0.076527 
+        "l:hylake"                                                - 1.5e+06    -      12.413904     0.000293     0.000007         0.076527 
+        "l:snow_init"                                             - 1.5e+06    -       1.134174     0.000084     0.000000         0.076527 
+        "l:ecosysdyn"                                             - 1.5e+06    -     371.498718     0.004272     0.000216         0.076527 
+          "l:CNZero"                                              - 1.5e+06    -      63.389084     0.000994     0.000033         0.076527 
+          "l:CNDeposition"                                        - 1.5e+06    -       0.356455     0.000078     0.000000         0.076527 
+          "l:CNFixation"                                          - 1.5e+06    -       2.375404     0.000256     0.000001         0.076527 
+          "l:MaintenanceResp"                                     - 1.5e+06    -       5.907999     0.000403     0.000003         0.076527 
+          "l:PhosphorusDeposition"                                - 1.5e+06    -       0.173368     0.000080     0.000000         0.076527 
+          "l:CNAllocation - phase-1"                              - 1.5e+06    -       6.554833     0.000715     0.000003         0.076527 
+          "l:SoilLittDecompAlloc"                                 - 1.5e+06    -      89.874908     0.003728     0.000047         0.076527 
+            "l:CNAllocation - phase-2"                            - 1.5e+06    -      13.555382     0.000409     0.000007         0.076527 
+            "l:CNAllocation - phase-3"                            - 1.5e+06    -       7.156443     0.000690     0.000004         0.076527 
+          "l:Phenology"                                           - 1.5e+06    -      16.056530     0.000417     0.000009         0.076527 
+          "l:GrowthResp"                                          - 1.5e+06    -       1.129983     0.000255     0.000000         0.076527 
+          "l:CNUpdate0"                                           - 1.5e+06    -       0.296486     0.000255     0.000000         0.076527 
+          "l:CNUpdate1"                                           - 1.5e+06    -      22.638174     0.000419     0.000013         0.076527 
+          "l:SoilLittVertTransp"                                  - 1.5e+06    -      43.260536     0.000484     0.000027         0.076527 
+          "l:CNGapMortality"                                      - 1.5e+06    -      22.795771     0.000424     0.000013         0.076527 
+          "l:CNUpdate2"                                           - 1.5e+06    -      49.018387     0.001496     0.000027         0.076527 
+        "l:depvel"                                                - 2.9e+06    -       2.219015     0.000082     0.000000         0.153055 
+        "l:ch4"                                                   - 1.5e+06    -     106.218719     0.003507     0.000058         0.076527 
+        "l:hydro2 drainage"                                       - 1.5e+06    -       7.172704     0.000434     0.000003         0.076527 
+        "l:PhosphorusWeathering"                                  - 1.5e+06    -       2.798027     0.000261     0.000001         0.076527 
+        "l:PhosphorusAdsportion"                                  - 1.5e+06    -       2.597941     0.000082     0.000001         0.076527 
+        "l:PhosphorusDesoprtion"                                  - 1.5e+06    -       2.448426     0.000256     0.000001         0.076527 
+        "l:PhosphorusOcclusion"                                   - 1.5e+06    -       2.335100     0.000394     0.000001         0.076527 
+        "l:PhosphorusBiochemMin"                                  - 1.5e+06    -      17.544615     0.000301     0.000011         0.076527 
+        "l:CNUpdate3"                                             - 1.5e+06    -       3.689454     0.000400     0.000002         0.076527 
+        "l:PUpdate3"                                              - 1.5e+06    -       9.842456     0.000403     0.000005         0.076527 
+        "l:CNPsum"                                                - 1.5e+06    -      62.059467     0.000846     0.000037         0.076527 
+        "l:balchk"                                                - 1.5e+06    -       4.312818     0.000439     0.000002         0.076527 
+        "l:gridbalchk"                                            - 1.5e+06    -       5.557721     0.000404     0.000003         0.076527 
+        "l:lnd2atm"                                               - 1.5e+06    -      23.134100     0.000444     0.000014         0.076527 
+        "l:wrtdiag"                                               - 1.5e+06    -       0.184055     0.000032     0.000000         0.076527 
+        "l:hbuf"                                                  - 1.5e+06    -     464.958374     0.002307     0.000291         0.076527 
+        "l:clm_drv_io"                                            - 1.5e+06    -       4.936188     0.015267     0.000001         0.076527 
+          "l:clm_drv_io_htapes"                                   - 1.5e+06    -       4.391758     0.015267     0.000001         0.076527 
+            "l:hist_htapes_wrapup_define"                         -      50    -       0.173440     0.006588     0.000647         0.000003 
+              "l:PIO:PIO_createfile"                              -      50    -       0.002007     0.000084     0.000024         0.000003 
+            "l:hist_htapes_wrapup_tconst"                         -      50    -       0.008846     0.000975     0.000155         0.000003 
+              "l:PIO:pio_put_vara_1d_double"                      -     250    -       0.001297     0.000606     0.000002         0.000013 
+              "l:PIO:pio_put_vara_1d_int"                         -     250    -       0.000741     0.000012     0.000001         0.000013 
+              "l:PIO:pio_put_vara_1d_text"                        -     100    -       0.000422     0.000007     0.000003         0.000005 
+            "l:hist_htapes_wrapup_write"                          -      50    -       0.170014     0.006384     0.000723         0.000003 
+*             "l:PIO:PIO_initdecomp_dof"                          -      16    -       0.000261     0.000094     0.000006         0.000001 
+                "l:PIO:pio_rearrange_create_box"                  -      16    -       0.000208     0.000080     0.000004         0.000001 
+*             "l:PIO:pio_write_darray"                            -   14783    -       0.084004     0.000054     0.000005         0.000769 
+                "l:PIO:pre_pio_write_nf"                          -   14783    -       0.025182     0.000033     0.000001         0.000769 
+                  "l:PIO:pio_rearrange_write"                     -   14783    -       0.021008     0.000033     0.000001         0.000769 
+                    "l:PIO:pio_rearrange_comp2io_double"          -   14308    -       0.015626     0.000032     0.000000         0.000744 
+                      "l:PIO:swapm_box_rear_comp2io_double"       -   14308    -       0.007823     0.000006     0.000000         0.000744 
+                    "l:PIO:pio_rearrange_comp2io_int"             -     475    -       0.000727     0.000003     0.000001         0.000025 
+                      "l:PIO:swapm_box_rear_comp2io_int"          -     475    -       0.000401     0.000002     0.000000         0.000025 
+                "l:PIO:pio_write_nf"                              -   14783    -       0.042054     0.000050     0.000002         0.000769 
+                  "l:PIO:pio_write_nfdarray_double"               -   14308    -       0.037047     0.000050     0.000002         0.000744 
+                  "l:PIO:pio_write_nfdarray_int"                  -     475    -       0.001114     0.000003     0.000002         0.000025 
+                "l:PIO:post_pio_write_nf"                         -   14783    -       0.000479     0.000001     0.000000         0.000769 
+            "l:PIO:PIO_closefile"                                 -      50    -       0.003679     0.000137     0.000023         0.000003 
+        "l:accum"                                                 - 1.5e+06    -      35.389210     0.000429     0.000021         0.076527 
+        "l:cnbalchk_at_grid"                                      - 1.5e+06    -      15.654090     0.000413     0.000009         0.076527 
+        "l:cnbalchk"                                              - 1.5e+06    -       3.724053     0.000294     0.000001         0.076527 
+        "l:surfalb"                                               - 1.5e+06    -      29.712383     0.000446     0.000014         0.076527 
+        "l:urbsurfalb"                                            - 1.5e+06    -      17.180847     0.000436     0.000004         0.076527 
+      "l:lc_clm2_adv_timestep"                                    - 1.5e+06    -       0.604204     0.000400     0.000000         0.076527 
+  "CPL:TPROF_WRITE"                                               y 1.5e+06    -       0.134251     0.001123     0.000000         0.076527 
+    "CPL:sync1_tprof"                                             -       9    -       0.000001     0.000001     0.000000         0.000000 
+    "CPL:t_prf"                                                   y       8    -       0.007618     0.000987     0.000920         0.000000 
+    "CPL:sync2_tprof"                                             -       8    -       0.000001     0.000001     0.000000         0.000000 
+
+Overhead sum =      7.81 wallclock seconds
+Total calls  = 1.502e+08
+
+Multiple parent info for thread 0:
+Columns are count and name for the listed child
+Rows are each parent, with their common child being the last entry, which is indented.
+Count next to each parent is the number of times it called the child.
+Count next to child is total number of times it was called by the listed parents.
+
+       6 l_i:clm_init1                   
+      12 l_i:clm_init2                   
+       1 l_i:ndepdyn_readLBUB_LB_readpio 
+       1 l_i:pdepdyn_readLBUB_LB_readpio 
+      20   l_i:PIO:PIO_openfile            
+
+       6 l_i:clm_init1                   
+       9 l_i:clm_init2                   
+      15   l_i:PIO:PIO_closefile           
+
+       9 l_i:clm_init1                   
+       1 l_i:clm_init2                   
+       1 l_i:init_ndep                   
+       1 l_i:init_pdep                   
+      12   l_i:PIO:PIO_initdecomp_dof      
+
+      44 l_i:clm_init1                   
+      16 l_i:clm_init2                   
+       1 l_i:ndepdyn_readLBUB_LB_readpio 
+       1 l_i:ndepdyn_readLBUB_UB_readpio 
+       1 l_i:pdepdyn_readLBUB_LB_readpio 
+       1 l_i:pdepdyn_readLBUB_UB_readpio 
+      64   l_i:PIO:pio_read_darray         
+
+     132 l_i:clm_init1                   
+      24 l_i:clm_init2                   
+     156   l_i:PIO:pio_get_var_1d_double   
+
+       6 l_i:clm_init1                   
+     104 l_i:clm_init2                   
+     110   l_i:PIO:pio_get_var_0d_double   
+
+       4 l:hist_htapes_wrapup_tconst     
+      12 l:hist_htapes_wrapup_write      
+      16   l:PIO:PIO_initdecomp_dof        
+
+     308 l:hist_htapes_wrapup_tconst     
+   14475 l:hist_htapes_wrapup_write      
+   14783   l:PIO:pio_write_darray          
+
+
+thread 0 had some hash collisions:
+hashtable[0][77] had 2 entries: l_i:ndepdyn_readLBUB_setup l:hbuf
+hashtable[0][105] had 2 entries: CPL:RUN l:PIO:PIO_closefile
+hashtable[0][144] had 2 entries: l:hist_htapes_wrapup_tconst l:PIO:post_pio_write_nf
+hashtable[0][548] had 2 entries: l_i:clm_init1 l:surfalb
+hashtable[0][779] had 2 entries: CPL:lndprep_mrgx2l l:PIO:swapm_box_rear_comp2io_int
+hashtable[0][1152] had 2 entries: l:PIO:pio_rearrange_comp2io_double CPL:HISTORY
+hashtable[0][1351] had 2 entries: g_i:comp_init CPL:c2l_infoexch
+hashtable[0][1685] had 2 entries: l_i:init_accflds l_i:init_dyn_subgrid
+hashtable[0][1719] had 2 entries: l:depvel l:PIO:pio_write_nfdarray_int
+hashtable[0][1796] had 2 entries: l:CNUpdate0 l:PIO:pio_put_vara_1d_double
+Total collisions thread 0 = 10
+Entry information:
+num_zero = 1849 num_one = 189 num_two = 10 num_more = 0
+Most = 2
+
+Thread 0 total memory usage = 96.4 KB
+  Hashmem                   = 32.768 KB
+  Regionmem                 = 60.192 KB (papimem portion = 0 KB)
+  Parent/child arrays       = 3.44 KB
+
+Total memory usage all threads = 96.4 KB
+
+threadid[0] = 0

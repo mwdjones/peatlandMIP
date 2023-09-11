@@ -1,0 +1,10 @@
+/home/mwjones/E3SM-SL/cime/scripts/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/SourceMods/src.share
+/home/mwjones/E3SM-SL/cime/src/drivers/mct/shr
+/home/mwjones/E3SM-SL/cime/src/share/streams
+/home/mwjones/E3SM-SL/cime/src/share/util
+/home/mwjones/E3SM-SL/cime/src/share/RandNum/src
+/home/mwjones/E3SM-SL/cime/src/share/RandNum/src/dsfmt_f03
+/home/mwjones/E3SM-SL/cime/src/share/RandNum/src/kissvec
+/home/mwjones/E3SM-SL/cime/src/share/RandNum/src/mt19937
+/home/mwjones/E3SM-SL/cime/src/drivers/mct/shr
+/home/mwjones/E3SM-SL/cime/src/share/esmf_wrf_timemgr

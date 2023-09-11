@@ -1,0 +1,444 @@
+The system is: Linux - 4.15.0-142-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: -mcmodel=medium;;;-O;;-DTIMING;-DLINUX;-DNDEBUG;-DMCT_INTERFACE;-DNO_MPI2;-DPIO1;;-DFORTRANUNDERSCORE;-DNO_R16;-DCPRGNU;-DCPL_BYPASS;;-DFORTRANUNDERSCORE;-DNO_R16;-DCPL_BYPASS;-DHAVE_SLASHPROC;-D_NO_MPI_RSEND;-I.;-I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include;-I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include;-I/usr//include;-I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /usr/bin/gfortran 
+Build flags: -O;-fconvert=big-endian;-ffree-line-length-none;-ffixed-line-length-none;-fno-range-check;;-O;;-DTIMING;-DLINUX;-DNDEBUG;-DMCT_INTERFACE;-DNO_MPI2;-DPIO1;;-DFORTRANUNDERSCORE;-DNO_R16;-DCPRGNU;-DCPL_BYPASS;;-DFORTRANUNDERSCORE;-DNO_R16;-DCPL_BYPASS;-DHAVE_SLASHPROC;-D_NO_MPI_RSEND;-I.;-I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include;-I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include;-I/usr//include;-I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include
+Id flags: -v
+
+The output was:
+0
+Driving: /usr/bin/gfortran -O -fconvert=big-endian -ffree-line-length-none -ffixed-line-length-none -fno-range-check -O -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1 -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -v CMakeFortranCompilerId.F -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
+COLLECT_GCC_OPTIONS='-O' '-fconvert=big-endian' '-ffree-line-length-none' '-ffixed-line-length-none' '-fno-range-check' '-O' '-D' 'TIMING' '-D' 'LINUX' '-D' 'NDEBUG' '-D' 'MCT_INTERFACE' '-D' 'NO_MPI2' '-D' 'PIO1' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPRGNU' '-D' 'CPL_BYPASS' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPL_BYPASS' '-D' 'HAVE_SLASHPROC' '-D' '_NO_MPI_RSEND' '-I' '.' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include' '-I' '/usr//include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/ccaMshcj.f90 -quiet -v -I . -I /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I /usr//include -I /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -imultiarch x86_64-linux-gnu -D TIMING -D LINUX -D NDEBUG -D MCT_INTERFACE -D NO_MPI2 -D PIO1 -D FORTRANUNDERSCORE -D NO_R16 -D CPRGNU -D CPL_BYPASS -D FORTRANUNDERSCORE -D NO_R16 -D CPL_BYPASS -D HAVE_SLASHPROC -D _NO_MPI_RSEND CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -mtune=generic -march=x86-64 -auxbase CMakeFortranCompilerId -O -O -version -fconvert=big-endian -ffree-line-length-none -ffixed-line-length-none -fno-range-check -fintrinsic-modules-path /usr/lib/gcc/x86_64-linux-gnu/5/finclude -o /tmp/ccAL9Mrn.s
+f951: Warning: Nonexistent include directory ‘/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include’ [-Wmissing-include-dirs]
+GNU Fortran (Ubuntu 5.4.0-6ubuntu1~16.04.12) version 5.4.0 20160609 (x86_64-linux-gnu)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/5/../../../../x86_64-linux-gnu/include"
+ignoring nonexistent directory "/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include"
+ignoring duplicate directory "/usr//include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ .
+ /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include
+ /usr/lib/gcc/x86_64-linux-gnu/5/finclude
+ /usr/lib/gcc/x86_64-linux-gnu/5/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/5/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU Fortran2008 (Ubuntu 5.4.0-6ubuntu1~16.04.12) version 5.4.0 20160609 (x86_64-linux-gnu)
+	compiled by GNU C version 5.4.0 20160609, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COLLECT_GCC_OPTIONS='-O' '-fconvert=big-endian' '-ffree-line-length-none' '-ffixed-line-length-none' '-fno-range-check' '-O' '-D' 'TIMING' '-D' 'LINUX' '-D' 'NDEBUG' '-D' 'MCT_INTERFACE' '-D' 'NO_MPI2' '-D' 'PIO1' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPRGNU' '-D' 'CPL_BYPASS' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPL_BYPASS' '-D' 'HAVE_SLASHPROC' '-D' '_NO_MPI_RSEND' '-I' '.' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include' '-I' '/usr//include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v -I . -I /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I /usr//include -I /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include --64 -o /tmp/ccAycjLr.o /tmp/ccAL9Mrn.s
+GNU assembler version 2.26.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.26.1
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/5/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-O' '-fconvert=big-endian' '-ffree-line-length-none' '-ffixed-line-length-none' '-fno-range-check' '-O' '-D' 'TIMING' '-D' 'LINUX' '-D' 'NDEBUG' '-D' 'MCT_INTERFACE' '-D' 'NO_MPI2' '-D' 'PIO1' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPRGNU' '-D' 'CPL_BYPASS' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPL_BYPASS' '-D' 'HAVE_SLASHPROC' '-D' '_NO_MPI_RSEND' '-I' '.' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include' '-I' '/usr//include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-O' '-fconvert=big-endian' '-ffree-line-length-none' '-ffixed-line-length-none' '-fno-range-check' '-O' '-D' 'TIMING' '-D' 'LINUX' '-D' 'NDEBUG' '-D' 'MCT_INTERFACE' '-D' 'NO_MPI2' '-D' 'PIO1' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPRGNU' '-D' 'CPL_BYPASS' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPL_BYPASS' '-D' 'HAVE_SLASHPROC' '-D' '_NO_MPI_RSEND' '-I' '.' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include' '-I' '/usr//include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cchfLD5v.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. /tmp/ccAycjLr.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/3.5.1/CompilerIdFortran/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_6737a/fast"
+gmake[1]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_6737a.dir/build.make CMakeFiles/cmTC_6737a.dir/build
+gmake[2]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6737a.dir/testCCompiler.c.o
+/usr/bin/gcc    -mcmodel=medium   -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include    -o CMakeFiles/cmTC_6737a.dir/testCCompiler.c.o   -c /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_6737a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6737a.dir/link.txt --verbose=1
+/usr/bin/gcc  -mcmodel=medium   -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include      -L/usr/lib/x86_64-linux-gnu -lblas -llapack -lnetcdf -lnetcdff  CMakeFiles/cmTC_6737a.dir/testCCompiler.c.o  -o cmTC_6737a -rdynamic 
+gmake[2]: Leaving directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_0312d/fast"
+gmake[1]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_0312d.dir/build.make CMakeFiles/cmTC_0312d.dir/build
+gmake[2]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0312d.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -mcmodel=medium   -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include    -o CMakeFiles/cmTC_0312d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_0312d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0312d.dir/link.txt --verbose=1
+/usr/bin/gcc  -mcmodel=medium   -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include      -L/usr/lib/x86_64-linux-gnu -lblas -llapack -lnetcdf -lnetcdff -v CMakeFiles/cmTC_0312d.dir/CMakeCCompilerABI.c.o  -o cmTC_0312d -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-mcmodel=medium' '-O' '-D' 'TIMING' '-D' 'LINUX' '-D' 'NDEBUG' '-D' 'MCT_INTERFACE' '-D' 'NO_MPI2' '-D' 'PIO1' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPRGNU' '-D' 'CPL_BYPASS' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPL_BYPASS' '-D' 'HAVE_SLASHPROC' '-D' '_NO_MPI_RSEND' '-I' '.' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include' '-I' '/usr//include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-L/usr/lib/x86_64-linux-gnu' '-v' '-o' 'cmTC_0312d' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cckpA62z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_0312d /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -lblas -llapack -lnetcdf -lnetcdff CMakeFiles/cmTC_0312d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+gmake[2]: Leaving directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_0312d/fast"]
+  ignore line: [gmake[1]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_0312d.dir/build.make CMakeFiles/cmTC_0312d.dir/build]
+  ignore line: [gmake[2]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_0312d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -mcmodel=medium   -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include    -o CMakeFiles/cmTC_0312d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_0312d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0312d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc  -mcmodel=medium   -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include      -L/usr/lib/x86_64-linux-gnu -lblas -llapack -lnetcdf -lnetcdff -v CMakeFiles/cmTC_0312d.dir/CMakeCCompilerABI.c.o  -o cmTC_0312d -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medium' '-O' '-D' 'TIMING' '-D' 'LINUX' '-D' 'NDEBUG' '-D' 'MCT_INTERFACE' '-D' 'NO_MPI2' '-D' 'PIO1' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPRGNU' '-D' 'CPL_BYPASS' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPL_BYPASS' '-D' 'HAVE_SLASHPROC' '-D' '_NO_MPI_RSEND' '-I' '.' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include' '-I' '/usr//include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-L/usr/lib/x86_64-linux-gnu' '-v' '-o' 'cmTC_0312d' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cckpA62z.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_0312d /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -lblas -llapack -lnetcdf -lnetcdff CMakeFiles/cmTC_0312d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cckpA62z.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_0312d] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [-lblas] ==> lib [blas]
+    arg [-llapack] ==> lib [lapack]
+    arg [-lnetcdf] ==> lib [netcdf]
+    arg [-lnetcdff] ==> lib [netcdff]
+    arg [CMakeFiles/cmTC_0312d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [blas;lapack;netcdf;netcdff;c]
+  implicit dirs: [/usr/lib/x86_64-linux-gnu;/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_6536b/fast"
+gmake[1]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_6536b.dir/build.make CMakeFiles/cmTC_6536b.dir/build
+gmake[2]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6536b.dir/feature_tests.c.o
+/usr/bin/gcc    -mcmodel=medium   -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include    -std=c11 -o CMakeFiles/cmTC_6536b.dir/feature_tests.c.o   -c /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/feature_tests.c
+Linking C executable cmTC_6536b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6536b.dir/link.txt --verbose=1
+/usr/bin/gcc  -mcmodel=medium   -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include      -L/usr/lib/x86_64-linux-gnu -lblas -llapack -lnetcdf -lnetcdff  CMakeFiles/cmTC_6536b.dir/feature_tests.c.o  -o cmTC_6536b -rdynamic 
+gmake[2]: Leaving directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_39bec/fast"
+gmake[1]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_39bec.dir/build.make CMakeFiles/cmTC_39bec.dir/build
+gmake[2]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39bec.dir/feature_tests.c.o
+/usr/bin/gcc    -mcmodel=medium   -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include    -std=c99 -o CMakeFiles/cmTC_39bec.dir/feature_tests.c.o   -c /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/feature_tests.c
+Linking C executable cmTC_39bec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39bec.dir/link.txt --verbose=1
+/usr/bin/gcc  -mcmodel=medium   -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include      -L/usr/lib/x86_64-linux-gnu -lblas -llapack -lnetcdf -lnetcdff  CMakeFiles/cmTC_39bec.dir/feature_tests.c.o  -o cmTC_39bec -rdynamic 
+gmake[2]: Leaving directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_ea788/fast"
+gmake[1]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_ea788.dir/build.make CMakeFiles/cmTC_ea788.dir/build
+gmake[2]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea788.dir/feature_tests.c.o
+/usr/bin/gcc    -mcmodel=medium   -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include    -std=c90 -o CMakeFiles/cmTC_ea788.dir/feature_tests.c.o   -c /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ea788
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea788.dir/link.txt --verbose=1
+/usr/bin/gcc  -mcmodel=medium   -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include      -L/usr/lib/x86_64-linux-gnu -lblas -llapack -lnetcdf -lnetcdff  CMakeFiles/cmTC_ea788.dir/feature_tests.c.o  -o cmTC_ea788 -rdynamic 
+gmake[2]: Leaving directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the Fortran compiler works passed with the following output:
+Change Dir: /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_14284/fast"
+gmake[1]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_14284.dir/build.make CMakeFiles/cmTC_14284.dir/build
+gmake[2]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_14284.dir/testFortranCompiler.f.o
+/usr/bin/gfortran    -O -fconvert=big-endian -ffree-line-length-none -ffixed-line-length-none -fno-range-check  -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include    -c /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp/testFortranCompiler.f -o CMakeFiles/cmTC_14284.dir/testFortranCompiler.f.o
+f951: Warning: Nonexistent include directory ‘/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include’ [-Wmissing-include-dirs]
+Linking Fortran executable cmTC_14284
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_14284.dir/link.txt --verbose=1
+/usr/bin/gfortran      -L/usr/lib/x86_64-linux-gnu -lblas -llapack -lnetcdf -lnetcdff  -O -fconvert=big-endian -ffree-line-length-none -ffixed-line-length-none -fno-range-check  -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include  CMakeFiles/cmTC_14284.dir/testFortranCompiler.f.o  -o cmTC_14284  
+gmake[2]: Leaving directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_2e65d/fast"
+gmake[1]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_2e65d.dir/build.make CMakeFiles/cmTC_2e65d.dir/build
+gmake[2]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_2e65d.dir/CMakeFortranCompilerABI.F.o
+/usr/bin/gfortran    -O -fconvert=big-endian -ffree-line-length-none -ffixed-line-length-none -fno-range-check  -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include    -c /usr/share/cmake-3.5/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_2e65d.dir/CMakeFortranCompilerABI.F.o
+f951: Warning: Nonexistent include directory ‘/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include’ [-Wmissing-include-dirs]
+Linking Fortran executable cmTC_2e65d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e65d.dir/link.txt --verbose=1
+/usr/bin/gfortran      -L/usr/lib/x86_64-linux-gnu -lblas -llapack -lnetcdf -lnetcdff -v -O -fconvert=big-endian -ffree-line-length-none -ffixed-line-length-none -fno-range-check  -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include  CMakeFiles/cmTC_2e65d.dir/CMakeFortranCompilerABI.F.o  -o cmTC_2e65d   
+Driving: /usr/bin/gfortran -L/usr/lib/x86_64-linux-gnu -lblas -llapack -lnetcdf -lnetcdff -v -O -fconvert=big-endian -ffree-line-length-none -ffixed-line-length-none -fno-range-check -O -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1 -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include CMakeFiles/cmTC_2e65d.dir/CMakeFortranCompilerABI.F.o -o cmTC_2e65d -l gfortran -l m -shared-libgcc
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gfortran
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) 
+Reading specs from /usr/lib/gcc/x86_64-linux-gnu/5/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-L/usr/lib/x86_64-linux-gnu' '-v' '-O' '-fconvert=big-endian' '-ffree-line-length-none' '-ffixed-line-length-none' '-fno-range-check' '-O' '-D' 'TIMING' '-D' 'LINUX' '-D' 'NDEBUG' '-D' 'MCT_INTERFACE' '-D' 'NO_MPI2' '-D' 'PIO1' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPRGNU' '-D' 'CPL_BYPASS' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPL_BYPASS' '-D' 'HAVE_SLASHPROC' '-D' '_NO_MPI_RSEND' '-I' '.' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include' '-I' '/usr//include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-o' 'cmTC_2e65d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-L/usr/lib/x86_64-linux-gnu' '-v' '-O' '-fconvert=big-endian' '-ffree-line-length-none' '-ffixed-line-length-none' '-fno-range-check' '-O' '-D' 'TIMING' '-D' 'LINUX' '-D' 'NDEBUG' '-D' 'MCT_INTERFACE' '-D' 'NO_MPI2' '-D' 'PIO1' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPRGNU' '-D' 'CPL_BYPASS' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPL_BYPASS' '-D' 'HAVE_SLASHPROC' '-D' '_NO_MPI_RSEND' '-I' '.' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include' '-I' '/usr//include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-o' 'cmTC_2e65d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbCVsJW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2e65d /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -lblas -llapack -lnetcdf -lnetcdff CMakeFiles/cmTC_2e65d.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+gmake[2]: Leaving directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/gmake" "cmTC_2e65d/fast"]
+  ignore line: [gmake[1]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTC_2e65d.dir/build.make CMakeFiles/cmTC_2e65d.dir/build]
+  ignore line: [gmake[2]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_2e65d.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/usr/bin/gfortran    -O -fconvert=big-endian -ffree-line-length-none -ffixed-line-length-none -fno-range-check  -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include    -c /usr/share/cmake-3.5/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_2e65d.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [f951: Warning: Nonexistent include directory ‘/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include’ [-Wmissing-include-dirs]]
+  ignore line: [Linking Fortran executable cmTC_2e65d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e65d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gfortran      -L/usr/lib/x86_64-linux-gnu -lblas -llapack -lnetcdf -lnetcdff -v -O -fconvert=big-endian -ffree-line-length-none -ffixed-line-length-none -fno-range-check  -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include  CMakeFiles/cmTC_2e65d.dir/CMakeFortranCompilerABI.F.o  -o cmTC_2e65d   ]
+  ignore line: [Driving: /usr/bin/gfortran -L/usr/lib/x86_64-linux-gnu -lblas -llapack -lnetcdf -lnetcdff -v -O -fconvert=big-endian -ffree-line-length-none -ffixed-line-length-none -fno-range-check -O -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1 -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include CMakeFiles/cmTC_2e65d.dir/CMakeFortranCompilerABI.F.o -o cmTC_2e65d -l gfortran -l m -shared-libgcc]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.12' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.12) ]
+  ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/5/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-L/usr/lib/x86_64-linux-gnu' '-v' '-O' '-fconvert=big-endian' '-ffree-line-length-none' '-ffixed-line-length-none' '-fno-range-check' '-O' '-D' 'TIMING' '-D' 'LINUX' '-D' 'NDEBUG' '-D' 'MCT_INTERFACE' '-D' 'NO_MPI2' '-D' 'PIO1' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPRGNU' '-D' 'CPL_BYPASS' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPL_BYPASS' '-D' 'HAVE_SLASHPROC' '-D' '_NO_MPI_RSEND' '-I' '.' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include' '-I' '/usr//include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-o' 'cmTC_2e65d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-L/usr/lib/x86_64-linux-gnu' '-v' '-O' '-fconvert=big-endian' '-ffree-line-length-none' '-ffixed-line-length-none' '-fno-range-check' '-O' '-D' 'TIMING' '-D' 'LINUX' '-D' 'NDEBUG' '-D' 'MCT_INTERFACE' '-D' 'NO_MPI2' '-D' 'PIO1' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPRGNU' '-D' 'CPL_BYPASS' '-D' 'FORTRANUNDERSCORE' '-D' 'NO_R16' '-D' 'CPL_BYPASS' '-D' 'HAVE_SLASHPROC' '-D' '_NO_MPI_RSEND' '-I' '.' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include' '-I' '/usr//include' '-I' '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include' '-o' 'cmTC_2e65d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbCVsJW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_2e65d /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. -lblas -llapack -lnetcdf -lnetcdff CMakeFiles/cmTC_2e65d.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccbCVsJW.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2e65d] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [-lblas] ==> lib [blas]
+    arg [-llapack] ==> lib [lapack]
+    arg [-lnetcdf] ==> lib [netcdf]
+    arg [-lnetcdff] ==> lib [netcdff]
+    arg [CMakeFiles/cmTC_2e65d.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [blas;lapack;netcdf;netcdff;gfortran;m;quadmath;m;c]
+  implicit dirs: [/usr/lib/x86_64-linux-gnu;/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/gmake" "cmTC_66280/fast"
+gmake[1]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTC_66280.dir/build.make CMakeFiles/cmTC_66280.dir/build
+gmake[2]: Entering directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_66280.dir/testFortranCompilerF90.f90.o
+/usr/bin/gfortran    -O -fconvert=big-endian -ffree-line-length-none -ffixed-line-length-none -fno-range-check  -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include    -c /home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_66280.dir/testFortranCompilerF90.f90.o
+f951: Warning: Nonexistent include directory ‘/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include’ [-Wmissing-include-dirs]
+Linking Fortran executable cmTC_66280
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66280.dir/link.txt --verbose=1
+/usr/bin/gfortran      -L/usr/lib/x86_64-linux-gnu -lblas -llapack -lnetcdf -lnetcdff  -O -fconvert=big-endian -ffree-line-length-none -ffixed-line-length-none -fno-range-check  -O  -DTIMING -DLINUX -DNDEBUG -DMCT_INTERFACE -DNO_MPI2 -DPIO1  -DFORTRANUNDERSCORE -DNO_R16 -DCPRGNU -DCPL_BYPASS  -DFORTRANUNDERSCORE -DNO_R16 -DCPL_BYPASS -DHAVE_SLASHPROC -D_NO_MPI_RSEND -I. -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/mct/noesmf/c1a1l1i1o1r1g1w1e1/include -I/usr//include -I/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/include  CMakeFiles/cmTC_66280.dir/testFortranCompilerF90.f90.o  -o cmTC_66280  
+gmake[2]: Leaving directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/home/mwjones/E3SM-SL/run/TEST_US-SPR_ICB1850CNRDCTCBC_ad_spinup/bld/gnu/mpi-serial/nodebug/nothreads/mct/pio/pio1/CMakeFiles/CMakeTmp'
+
+
