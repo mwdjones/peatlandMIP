@@ -108,7 +108,9 @@ def plotDoYBounds(Df1Av, Df2Av, Df3Av, VarName, ylabel, label1, label2, label3):
     plt.plot(np.arange(DimDt), Df2Av[VarName],'r-', label = label2)
     plt.plot(np.arange(DimDt), Df3Av[VarName],'g-', label = label3)
     
-    plt.xticks(np.arange(0,DimDt,31),['Jan','Feb','Mar','Apr', 'May','Jun', 'Jul', 'Aug', 'Sep', 'Oct','Nov','Dec'],
+    tick_locations = np.arange(0,DimDt,31)
+    labels = np.resize(['Jan','Feb','Mar','Apr', 'May','Jun', 'Jul', 'Aug', 'Sep', 'Oct','Nov','Dec'], len(tick_locations))
+    plt.xticks(tick_locations, labels,
               rotation=90, fontsize=10)
     plt.yticks(fontsize=10)
     
